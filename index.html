@@ -5,12 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
 </head>
-<body>
-    <ul>
-        <li><img src="/images/ayakkabi.jpeg"></li>
-        <li><img src="/images/corap.jpeg"></li>
-        <li><img src="/images/terlik.jpeg"></li>
-    </ul>
+<body text-align="center">
+    <h1>Second Hand! (Actually foot)</h1>
+    <p>We are selling best of second hand items! If you find an item with better condition we can buy from you with the half price!</p>
+    <div class="gallery">
+        <a target="_blank" href="ayakkabi.html"><img src="/Users/fe/Documents/Git Projects/CSS-Shop/images/ayakkabi.jpeg"></a>
+        <div class="desc">From its owner very little used. Feel free to order! Just 3$</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="corap.html"><img src="/Users/fe/Documents/Git Projects/CSS-Shop/images/corap.jpeg"></a>
+        <div class="desc">Your fingers will feel the difference bitween cold and warm in this socks Just 2$</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="terlik.html"><img src="/Users/fe/Documents/Git Projects/CSS-Shop/images/terlik.jpeg"></a>
+        <div class="desc">One pair is lost but still usable. 1$ each pair(if we can find the other one)</div>
+    </div>
 </body>
 </html>
